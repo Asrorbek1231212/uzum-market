@@ -1,0 +1,88 @@
+.Login{
+    width: 100%;                                                                                 
+    height: 100vh;                                                                                
+    background: #a7a7a828;                                                                               
+    padding-top: 10px;                                                                 
+}                                                
+.katta{                                                                              
+    width: 100%;                                                                                 
+    height: 100%;                                                                                
+}                                                                                
+.inder__login{                                                                               
+    margin: auto;                                                                                
+    width: 420px;                                                                                
+    height: auto;                                                                               
+    background: #fff;                                                                                
+    padding: 10px;                                                                               
+    padding-left: 20px;   
+    margin-top: 40px;                                                                           
+}                        
+.inder__login p{                                                                                 
+    color: gray;                                                                                 
+    padding-top: 5px;                                                                                
+}                                                                                
+.logind{                                                                                                                                                                  
+    padding-top: 10px;                                                                               
+                                                                                    
+}                                                                                
+.login__p{                                                                               
+    padding-left: 17px;                                                                              
+}                                                                                
+.inp__login{                                                                                 
+    width: 330px;                                                                                
+    height: 50px;                                                                                
+    background: #E6E8ED;                                                                                 
+    border: none;                                                                                
+    border-radius: 10px;                                                                                 
+    color: black;                                                                                 
+    padding-left: 20px;                                                                              
+    margin-left: 20px;                                                                               
+}  
+.inp__login.active{
+    border: 1px solid dodgerblue;
+}                                                                              
+.batn{                                                                               
+    background: var(--bg-py);                                                                                
+    border-radius: 15px;                                                                                 
+    font-size: 20px;                                                                                 
+}    
+@media screen and (max-width:970px) {
+    .Login{
+        width: 100%;
+        height: 100vh;
+    }
+    .inder__login{
+        width: 340px;
+        height: auto;
+    }
+    .inp__login{
+        width: 230px;
+        height: 40px;
+    }
+    .Login p{
+        font-size: 13px;
+    }
+    .logind{
+        padding-left: 220px;
+    }
+}
+@media screen and (max-width: 400px) {
+    .Login{
+        width: 100%;
+        height: 100%;
+    }
+    .inder__login{
+        width: 100%;
+        height: auto;
+    }
+    .inp__login{
+        width: 230px;
+        height: 40px;
+    }
+    .Login p{
+        font-size: 13px;
+    }
+    .logind{
+        padding-left: 220px;
+    }
+}
